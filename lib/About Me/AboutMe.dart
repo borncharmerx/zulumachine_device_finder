@@ -87,7 +87,6 @@ class AboutMeScreenState extends State<AboutMeScreen> with TickerProviderStateMi
     return ExpansionTile(
       initiallyExpanded: false,
       tilePadding: EdgeInsets.symmetric(horizontal: 0),
-      // leading: const Icon(Icons.work_outline),
       title: const Text(
         "Work Experience",
         style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
@@ -182,9 +181,6 @@ class AboutMeScreenState extends State<AboutMeScreen> with TickerProviderStateMi
         GestureDetector(
           onTap: () async {
             const url = 'https://www.linkedin.com/in/sipho-motha-8a83b146';
-            // if (await canLaunchUrl(Uri.parse(url))) {
-            //   await launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication);
-            // }
             try {
               final launched = await launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication);
               if (!launched) {
@@ -257,7 +253,7 @@ class Header extends StatelessWidget {
       children: [
         const CircleAvatar(
           radius: 50,
-          backgroundImage: AssetImage('assets/profile.jpeg'), // or NetworkImage
+          backgroundImage: AssetImage('assets/profile.jpeg'),
         ),
         const SizedBox(height: 20),
         const Text(

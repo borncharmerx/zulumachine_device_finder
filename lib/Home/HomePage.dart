@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
 import '../About Me/AboutMe.dart';
 import '../DeviceScanner/DeviceScanner.dart';
 import '../constant/text_constants.dart';
@@ -8,9 +7,9 @@ import 'HomeScreen.dart';
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<HomePage> createState() => HomePageState();
 }
-class _HomePageState extends State<HomePage>
+class HomePageState extends State<HomePage>
     with SingleTickerProviderStateMixin {
   late TabController tabController;
   List<Widget> tabBody = [HomeScreen(), DeviceScannerScreen(), AboutMeScreen()];
