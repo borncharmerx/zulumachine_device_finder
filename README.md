@@ -1,16 +1,11 @@
 # zulumachine_device_finder
 
-Just for Demo
+Just for assignment
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is for assignment
+- Scan for BLE devices and list them
+- Display the discovered BLE Services and Characteristics
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Using simple design and nothing complicated 
