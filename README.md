@@ -2,9 +2,7 @@
 
 Just for assignment
 
-## Getting Started
-
-This project is for assignment
+## This project is for assignment
 - Scan for BLE devices and list them
 - Display the discovered BLE Services and Characteristics
 
